@@ -1,0 +1,6 @@
+Selecting and interacting with files on the user's local device is one of the most commonly used features of the web. It allows users to select files and upload them to a server, for example, uploading photos, or submitting tax documents, etc. But, it also allows sites to read and manipulate them without ever having to transfer the data across the network.
+
+The modern File System Access API #
+The File System Access API provides an easy way to both read from and write to files and directories on the user's local system. It's currently available in most Chromium-based browsers such as Chrome or Edge. To learn more about it, see the File System Access API article.
+
+Since the File System Access API is not compatible with all browsers yet, check out browser-fs-access, a helper library that uses the new API wherever it is available, but falls back to legacy approaches when it is not.
